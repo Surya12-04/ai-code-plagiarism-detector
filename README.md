@@ -1,18 +1,59 @@
-# AI Code Plagiarism Detector 🚨
+# 🔍 AI-Based Code Similarity & Plagiarism Detection System
 
-AI-based system to detect code similarity and potential plagiarism using lexical, syntactic, stylistic and ML-based techniques.
+Hybrid plagiarism detection system using **Lexical + AST (Global & Subtree) + Stylistic Features**.  
+Built with **Python** and deployed using **Streamlit**.
 
-## 🧠 Techniques Used
-- Lexical Analysis  
-- Syntactic Analysis (AST-based)  
-- Stylistic Analysis  
-- Machine Learning-based Similarity Scoring  
+---
 
-## ✨ Features
-- Upload multiple code files  
-- Compute similarity scores between submissions  
-- Visualize similarity matrix  
-- Identify highly similar (plagiarized) code pairs  
+## 🚀 Live Demo  
+👉 https://ai-code-plagiarism-detector-gd7yinnbfzrd7up6cw4h93.streamlit.app/
 
+---
 
+## 🧠 Features
+- Pairwise code similarity comparison  
+- Multi-file plagiarism detection  
+- Similarity matrix with heatmap visualization  
+- Clustering of similar (potentially plagiarized) submissions  
+- ROC Curve & AUC-based evaluation  
+
+---
+
+## 📁 Project Structure
+
+```bash
+analysis/    # Evaluation, clustering, ROC  
+model/       # Similarity model  
+lexical/     # Lexical feature extraction  
+syntactic/   # AST-based analysis  
+stylistic/   # Coding style features  
+app.py       # Streamlit web app  
+
+```
+🛠 Tech Stack
+
+Python
+Streamlit
+NumPy, Pandas
+Scikit-learn
+
+▶️ How to Run Locally
+
+# Clone the repo
+git clone https://github.com/Surya12-04/ai-code-plagiarism-detector.git
+
+# Go inside project folder
+cd ai-code-plagiarism-detector
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run app
+streamlit run app.py
+
+👤 Author
+
+Surya Prakash Singh
+B.Tech Student | AI / ML Enthusiast
+GitHub: https://github.com/Surya12-04
 
